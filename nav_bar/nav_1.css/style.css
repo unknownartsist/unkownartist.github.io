@@ -1,0 +1,30 @@
+body{
+  background-color: darkgrey
+}
+header{
+  border: 5px solid black;
+  align-items: center;
+}
+header h1{
+text-align: center;
+}
+nav ul {
+  display: flex;
+  padding-left: 0px;
+}
+nav li{
+  list-style-type: none;
+  padding: 5px;
+}
+nav a{
+  color: darkred;
+  text-decoration: overline;
+}
+nav a:hover{
+color: grey
+}
+nav{
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+}
