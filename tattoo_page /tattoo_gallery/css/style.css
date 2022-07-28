@@ -1,3 +1,4 @@
+/* GALLERY PAGE CSS */
 #uka_logo{
   width: 15%;
   padding: 5px;
@@ -12,9 +13,85 @@
   align-items: center;
   padding-left: 0px;
   padding: 10px;
+  justify-content: space-between;
 }
 .header h1{
   text-align: center;
   display: flex;
-  justify-content: space-between;
+}
+.nav{
+  margin: 0px;
+  background-color: black;
+  padding: 10px;
+  border: solid black;
+  border-radius: 5px;
+}
+.na{
+  width: 15%;
+}
+.nav ul{
+border: 10px solid black;
+color: white;
+display: flex;
+padding-left: 0px;
+justify-content: space-between;
+width: 66%;
+margin: auto;
+}
+.nav li{
+  list-style-type: none;
+}
+.nav a:hover{
+  color: red;
+}
+.nav a{
+  color: white;
+}
+#hero_image{
+  width:100%;
+  border: solid darkgrey;
+   border-radius: 5px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+#Cross_tattoo{
+background-color: darkred;
+}
+/* #dragon_eye_tattoo{
+  width: 26%;
+}
+#Leo_tattoo{
+  width: 26%;
+}
+#Straw_hat_crew_tattoo{
+  width: 25%;
+}
+#the_big-5_tattoo{
+  width: 25%;
+}
+#wolf-and-lion_tattoo{
+  width: 25%;
+}
+#dragon_tattoo{
+  width: 15%
+} */
+.grid-wrapper{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 10px;
+  align-items: center;
+}
+.grid-wrapper img{
+  width: 100%;
+  background-color: darkred;
+}
+.footer{
+  background-color: black;
+}
+body{
+  background-color: darkgrey;
+  border: 10px solid darkgrey;
+  border-radius: 5px;
 }

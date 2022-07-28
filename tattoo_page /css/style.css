@@ -1,6 +1,6 @@
 body{
   background-color: darkgrey;
-  font-family: sans-serif;
+  font-family: inherit;
 }
 #uka_logo{
   width: 20%
@@ -42,13 +42,29 @@ justify-content: space-between;
   background-color: black;
   height: 200px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .footer img{
   width: 20%;
+  display: block;
 }
 .main{
   border: 5px solid black;
   border-radius: 20px;
+}
+.nav a{
+  color: black;
+}
+#facbook_icon{
+  width: 5%;
+  justify-content: space-between;
+}
+.footer-top{
+display: flex;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: flex-end;
+  wid
 }
