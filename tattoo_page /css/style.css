@@ -21,17 +21,10 @@ list-style-type: none;
 display: inline;
 
 }
-.nav li:hover{
-  color: red;
-}
 .nav ul{
 padding-left: 0px;
 display: flex;
 justify-content: space-between;
-}
-.nav{
-  background-color: grey;
-  padding: 20px;
 }
 .content{
   padding: 20px;
@@ -40,10 +33,10 @@ justify-content: space-between;
 }
 .footer{
   background-color: black;
-  height: 200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 10px;
 }
 .footer img{
   width: 20%;
@@ -55,16 +48,34 @@ justify-content: space-between;
 }
 .nav a{
   color: black;
+  padding: 10px 50px;
+  text-decoration: none;
 }
-#facbook_icon{
+#facebook_icon{
   width: 5%;
-  justify-content: space-between;
+  padding: 10px;
 }
 .footer-top{
 display: flex;
+justify-content: center;
+width: 100%;
+padding: 10px;
+padding-left: 0px;
 }
 .footer-bottom{
   display: flex;
   justify-content: flex-end;
-  wid
+  width: 100%;
+}
+#instagram_icon{
+  width: 5%;
+  padding: 10px;
+}
+#Snapchat_icon{
+  width: 5%;
+  padding: 10px;
+}
+.nav a:hover{
+  color: red;
+  background-color: darkred;
 }
