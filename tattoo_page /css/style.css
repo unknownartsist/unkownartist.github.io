@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "vampire wars";
+  src: url("../asset/vampire_wars/Vampire_Wars.ttf") format("Truetype");
+}
 body{
   background-color: darkgrey;
   font-family: inherit;
@@ -12,6 +16,7 @@ align-items: center;
 padding: 20px;
 justify-content: space-between;
 border-radius: 17px 17px 0px 0px;
+font-family: vampire wars;
 }
 .portfolio{
   width: 20%;

@@ -17,6 +17,7 @@ align-items: center;
 justify-content: space-between;
 border-radius: 17px 17px 0px 0px;
 font-family: vampire wars;
+padding: 10px;
 font-size: 20px;
 margin: 0px;
 }
@@ -32,16 +33,88 @@ margin: 0px;
   justify-content: space-between;
   padding-left: 0px;
   padding: 10px;
-  background-color: black;
   color: white;
+  margin: 0px;
 
 }
 .nav li{
   text-align: center;
   padding: 10px;
   list-style-type: none;
+  margin: 0px;
 }
 .nav{
   padding: 10px;
+  margin: 0px;
+  background-color: black;
+}
+.nav a:hover{
+  color: grey;
+  background-color: red;
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+}
+.footer{
+  background-color: black;
+}
+.footer-top{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: flex-end;
+}
+#facebook_icon{
+  width: 5%;
+  padding: 10px;
+}
+#instagram_icon{
+  width: 5%;
+  padding: 10px;
+}
+#Snapchat_icon{
+  width: 5%;
+  padding: 10px;
+}
+.content{
+  background-color: darkgrey;
+  padding: 10px;
+}
+.content ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0px;
+}
+.content li{
+  text-align: center;
+  padding-left: 0px;
+  padding: 10px;
+  margin: 0px;
+  font-family: vampire wars;
+}
+#email_icon{
+  width: 10%;
+  padding: 5px;
+}
+#phone_icon{
+  width: 10%;
+  padding: 5px;
+}
+#instagram{
+  width: 10%;
+  padding: 5px;
+}
+.Icon_images{
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  padding-left: 0px;
   margin: 0px;
 }

@@ -1,4 +1,8 @@
 /* GALLERY PAGE CSS */
+@font-face {
+  font-family: "vampire wars";
+  src: url("../../asset/vampire_wars/Vampire_Wars.ttf") format("Truetype");
+}
 #uka_logo{
   width: 15%;
   padding: 5px;
@@ -14,10 +18,12 @@
   padding-left: 0px;
   padding: 10px;
   justify-content: space-between;
+  font-family: vampire wars;
 }
 .header h1{
   text-align: center;
   display: flex;
+  font-family: vampire wars;
 }
 .nav{
   margin: 0px;
