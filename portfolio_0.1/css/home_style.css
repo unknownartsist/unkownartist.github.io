@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "vampire wars";
+  src: url("../asset/vampire_wars_copy/Vampire_Wars.ttf") format("Truetype");
+}
+body{
+  background-color: darkred;
+}
+#uka_Logo{
+  width: 10%;
+  padding: 5px;
+}
+.main{
+  background-color: grey;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-left: 0px;
+  margin: 0px;
+  font-family: vampire wars;
+}
+.uka h1{
+  font-size: 40px;
+}
+.portfolio{
+  width: 20%;
+}
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin: 0px;
+
+}
+.nav li{
+  text-align: center;
+  list-style-type: none;
+}
+.nav{
+  background-color: black;
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px;
+  display:block;
+}
+.nav a:hover{
+  color: darkred;
+  background-color: grey;
+}
