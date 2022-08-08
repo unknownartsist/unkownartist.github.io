@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+header{
+  font-family: cursive;
+  background-color: darkred;
+}
+table{
+border-bottom: 2px solid red;
+}
+th{
+  padding: 5px 10px;
+  background-color: red;
+  font-size: 18px;
+  color: white;
+}
+tr:hover{
+color: darkred;
+background-color: red;
+}
+td{
+padding: 5px 10px;
+font-size: 14pt;
+}

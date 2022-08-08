@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "vampire wars";
+  src: url("../asset/vampire_wars_copy/Vampire_Wars.ttf") format("Truetype");
+}
+#uka_logo{
+  width: 15%;
+  padding: 5px;
+}
+.main{
+  background-color: darkred;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio{
+  width: 20%;
+}
+.header h1{
+  font-family: vampire wars;
+  font-size: 50px;
+}
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin: 0px;
+}
+.nav li{
+  text-align: center;
+  list-style-type: none;
+}
+.nav{
+  background-color: black;
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+  margin: 0px;
+  display:block;
+  padding-left: 0px;
+  padding: 10px;
+}
+.nav a:hover{
+  color: darkred;
+  background-color: red;
+  padding: 10px;
+}
+#email_icon{
+  width: 20%;
+  padding: 10px;
+}
+#phone_icon{
+  width: 20%;
+  padding: 10px;
+}
+#instagram{
+  width: 20%;
+  padding: 10px;
+}
+.Icon_image{
+  display: flex;
+  justify-content: space-between;
+}
+.content ul{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin: 0px;
+  padding: 20px;
+}
+.content li{
+  text-align: center;
+  list-style-type: none;
+}
+.content{
+  font-family: vampire wars;
+}
+#uka{
+  width: 20%;
+  padding-left: 0px;
+  padding: 5px;
+}
+.footer {
+  background-color: black;
+}
+.footer-top{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 0px;
+  padding: 5px;
+}
+#facebook_icon{
+  width: 5%;
+  padding: 10px;
+}
+#instagram_icon{
+  width: 5%;
+  padding: 10px;
+}
+#Snapchat_icon{
+  width: 5%;
+  padding: 10px;
+}
+body{
+background: linear-gradient(to bottom,red,black)
+}
+.unknownartist{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: vampire wars;
+  font-size: 30px;
+}

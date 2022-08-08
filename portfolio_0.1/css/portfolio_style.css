@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "vampire wars";
+  src: url("../asset/vampire_wars_copy/Vampire_Wars.ttf") format("Truetype");
+}
+.main{
+  background-color:black;
+}
+#uka_logo{
+  width: 15%;
+  padding: 5px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  padding: 5px;
+  margin: 0px;
+}
+.portfolio{
+width: 20%;
+}
+.portrait{
+  width: 20%;
+}
+.header h1{
+  font-family: vampire wars;
+  font-size: 40px;
+  color: white;
+}
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin: 0px;
+}
+.nav li{
+  text-align: center;
+  list-style-type: none;
+}
+.nav{
+  background-color: red;
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px;
+  display:block;
+}
+.nav a:hover{
+  color: darkred;
+  background-color: black;
+}
+.footer{
+  background-color: black;
+}
+#uka{
+  width: 20%;
+  padding-left: 0px;
+  padding: 5px;
+}
+.footer-top{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 0px;
+  padding: 5px;
+}
+#facebook_icon{
+  width: 5%;
+  padding: 10px;
+}
+#instagram_icon{
+  width: 5%;
+  padding: 10px;
+}
+#Snapchat_icon{
+  width: 5%;
+  padding: 10px;
+}
+#asta_demon_form{
+  width: 40%;
+  padding: 5px;
+}
+#belle{
+  width: 20%;
+  padding: 5px;
+}
+#Deku{
+  width: 25%;
+}
+#ellie_tattoo{
+  width: 20%;
+  padding: 5px;
+}
+#luffy_gear_4{
+  width: 20%;
+  padding: 5px;
+}
+#MUI_goku{
+  width: 20%;
+  padding: 5px;
+}
+#Venom_Let_There_Be_Carnage{
+  width: 25%;
+  padding: 5px;
+}
+#uncharted{
+  width: 30%;
+  padding: 5px;
+}
+#unknown{
+  width: 25%;
+  padding: 5px;
+}
+#impossible_burger{
+  width: 30%;
+  padding: 5px;
+}
+.libary{
+  padding-left: 0px;
+  padding: 5px;
+  display: block;
+  margin: 0px;
+}
+body{
+transition: 1s;
+}
+body:hover{
+background: linear-gradient(to bottom,red,grey,black)
+}
+body{
+  background-color: darkred;
+}
