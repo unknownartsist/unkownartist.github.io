@@ -2,9 +2,12 @@
 header{
   font-family: cursive;
   background-color: darkred;
+  padding: 10px;
+  text-align: center;
 }
 table{
 border-bottom: 2px solid red;
+margin: auto;
 }
 th{
   padding: 5px 10px;
@@ -19,4 +22,39 @@ background-color: red;
 td{
 padding: 5px 10px;
 font-size: 14pt;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+li{
+  text-align: center;
+}
+nav{
+  background-color: black;
+  padding: 5px 10px;
+}
+li a{
+  color: white;
+  text-decoration: none;
+}
+li a:hover{
+  color: red;
+  background-color: darkred;
+  padding: 10px;
+}
+#facebook:hover{
+  color: red;
+}
+#instagram:hover{
+  color: darkred;
+}
+#snapchat:hover{
+  color: darkgrey;
+}
+footer ion-icon{
+  width: 40px;
+  height: 40px;
+  margin: auto;
 }
