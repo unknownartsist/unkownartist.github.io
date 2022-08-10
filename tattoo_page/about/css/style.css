@@ -89,3 +89,15 @@ body{
   width: 5%;
   padding: 10px;
 }
+.home{
+  text-align: center;
+  font-family: vampire wars;
+  font-size: 60px;
+}
+.home a{
+  color: black;
+  text-decoration: none;
+}
+.home a:hover{
+  color: darkred;
+}
