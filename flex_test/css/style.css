@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "vampire wars";
+  src: url("../asset/vampire_wars_copy/Vampire_Wars.ttf") format("Truetype");
+}
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: darkred;
+}
+.header-item{
+  flex: 1;
+}
+.right-text{
+  text-align: right;
+}
+ nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.nav-right ul{
+flex-direction: column;
+text-align: right;
+align-items: flex-end;
+}
+nav li{
+  list-style-type: none;
+  padding: 10px 20px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+footer{
+  background-color: darkgrey;
+  height: 500px;
+  width: 100%;
+}
+.footer-left{
+  flex: 1;
+  border: 2px solid black;
+}
+.footer-right{
+  flex: 2;
+  border: 2px solid black;
+}
+#uka{
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+}
+.header-item{
+  font-family: vampire wars;
+  justify-content: center;
+}
+.header-item h1{
+padding-left: 0px;
+margin: 0px;
+font-size: 50px;
+}
+.nav-left a:hover{
+  color: darkred;
+  background-color: red;
+}
+.nav-left a{
+  color: white;
+  padding: 20px;
+  font-family: vampire wars;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-right a:hover{
+  color: darkred;
+  background-color: red;
+}
+.nav-right a{
+  color: white;
+  padding: 20px;
+  font-family: vampire wars;
+  font-size: 18px;
+  text-decoration: none;
+}
+.grid-item{
+  height: 100px;
+  background-color: grey;
+  border: 2px solid darkred;
+}
+.grid-wrapper{
+display: grid;
+grid-template-columns: auto auto auto auto;
+
+}
+body{
+  margin:0px;
+}
