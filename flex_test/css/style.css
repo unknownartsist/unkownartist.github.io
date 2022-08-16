@@ -85,14 +85,17 @@ font-size: 50px;
   text-decoration: none;
 }
 .grid-item{
-  height: 100px;
+  height: 300px;
   background-color: grey;
   border: 2px solid darkred;
 }
 .grid-wrapper{
 display: grid;
 grid-template-columns: auto auto auto auto;
-
+}
+.grid-item img{
+  width: 100%;
+  height: 300px;
 }
 body{
   margin:0px;
