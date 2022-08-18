@@ -87,8 +87,12 @@ width: 5%;
 padding: 5px;
 }
 #Snapchat_icon{
-  width: 5%;
+  width: 100%;
   padding: 10px;
+}
+#snapchat{
+  width: 5%;
+  padding: 5px;
 }
 #asta_demon_form{
   width: 40%;
@@ -144,4 +148,5 @@ background: linear-gradient(to bottom,red);
 }
 body{
   background-color: darkred;
+  margin: 0px;
 }

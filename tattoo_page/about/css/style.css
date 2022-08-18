@@ -76,18 +76,31 @@ padding: 5px;
 }
 body{
   background-color: darkgrey;
+  margin: 0px;
 }
 #facebook_icon{
-  width: 5%;
+  width: 100%;
   padding: 10px;
 }
 #instagram_icon{
-  width: 5%;
+  width: 100%;
   padding: 10px;
 }
 #Snapchat_icon{
-  width: 5%;
+  width: 100%;
   padding: 10px;
+}
+#facebook{
+  width: 5%;
+  padding: 5px;
+}
+#instagram{
+  width: 5%;
+  padding: 5px;
+}
+#snapchat{
+  width: 5%;
+  padding: 5px;
 }
 .home{
   text-align: center;
