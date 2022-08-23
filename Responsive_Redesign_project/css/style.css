@@ -60,6 +60,7 @@ body{
   background-size: cover;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .content h2{
   font-size: 20px;
@@ -104,11 +105,26 @@ padding: 5px;
   margin-bottom: : 0px;
 }
 .grid-item{
-  height: 200px;
-  background-color: grey;
+  height: 90px;
   border: 2px solid white;
 }
 .grid-wrapper{
 display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: auto auto auto;
+}
+.content-text{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.grid-wrapper{
+  width:100%;
+}
+.grid-item img{
+  width: 100%;
+}
+.slide{
+  width: 80%;
+}
+.carousel-item{
+  width: 100%;
 }
