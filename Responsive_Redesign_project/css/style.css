@@ -132,42 +132,93 @@ grid-template-columns: auto auto auto;
 .carousel-item{
   width: 100%;
 }
-@media only screen and (min-width:800px){
-.header{
-align-items: center;
-}
-#lion_logo{
-  width: 10%;
-}
-.my-nav li{
-  font-size: 30px;
-}
-.content-text{
-  padding: 20px;
-  width: 100%;
-  text-align: center;
-  font-size: 90px;
-}
-.slid{
-  width: 10%;
-}
-.grid-item{
-  width: 100%;
-}
-#lion{
-  width: 100%;
-}
-#fire{
-  width: 100%;
-}
-.content p{
-  font-size: 20px;
-}
-.carousel-item{
-  width: 95%
-}
-.header h1{
-  font-size: 50px;
-}
-
+  @media only screen and (min-width:800px){
+  .header{
+  align-items: center;
+  }
+  #lion_logo{
+    width: 10%;
+  }
+  .my-nav li{
+    font-size: 24px;
+  }
+  .content-text{
+    padding: 15px;
+    text-align: center;
+    font-size: 90px;
+  }
+  .slide{
+    width: 90%;
+  }
+  .grid-item{
+    width: 100%;
+  }
+  #lion{
+    width: 100%;
+    height: auto;
+  }
+  #fire{
+    width: 100%;
+    height: auto;
+  }
+  .content p{
+    font-size: 20px;
+  }
+  .carousel-item{
+    width: 95%
+  }
+  .header h1{
+    font-size: 50px;
+  }
+  }
+  @media only screen and (min-width:1200px){
+    #lion_logo{
+      width: 15%;
+    }
+    .header h1{
+      font-size: 40px;
+    }
+    .slide{
+      width: 85%
+    }
+    .content-text{
+      padding: 30px;
+      text-align: center;
+      font-size: 30px;
+    }
+    #lion{
+      width: 100%;
+      height: auto;
+    }
+    .grid-item{
+      width: 100%;
+      height: auto;
+    }
+  }
+@media only screen and (min-width:1500px){
+  .header h1{
+    font-size: 45px;
+  }
+  #lion_logo{
+    width: 10%;
+  }
+  .slide{
+    width: 75%;
+  }
+  .my-nav ul{
+    font-size: 24px;
+  }
+  .content-text{
+    padding: 20px;
+    text-align: center;
+    font-size: 25%;
+  }
+  .grid-item{
+    width: 100%;
+    height: auto;
+  }
+  #fire{
+    width: 100%;
+    height: auto;
+  }
 }
