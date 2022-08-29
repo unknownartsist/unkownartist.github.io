@@ -70,16 +70,25 @@ margin: 0px;
   justify-content: flex-end;
 }
 #facebook_icon{
-  width: 5%;
+  width: 100%;
   padding: 10px;
 }
 #instagram_icon{
-  width: 5%;
+  width: 100%;
   padding: 10px;
 }
 #Snapchat_icon{
-  width: 5%;
+  width: 100%;
   padding: 10px;
+}
+#facebook{
+  width: 5%;
+}
+#instagram{
+  width: 5%;
+}
+#snapchat{
+  width: 5%;
 }
 .content{
   background-color: darkgrey;
