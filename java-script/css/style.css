@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.header-right img{
+  width: 100%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main-page{
+  box-sizing: border-box;
+  width: 100%;
+  border: 5px solid orange;
+}
+nav ul{
+  display: flex;
+  margin: 0px;
+  padding-left: 0px;
+  justify-content: space-between;
+}
+nav li{
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  color: orange;
+}
+main{
+  height: 400px;
+}
+footer{
+  display: flex;
+}
+.footer-left{
+  flex: 1;
+}
+.footer-center{
+  flex: 1;
+}
+.footer-right{
+  flex: 1;
+}
+.footer-left img{
+  width: 100%
+}
+.header-left{
+  font-family: 'Lobster', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* js-demo */
+.about-text{
+  display: none;
+}
