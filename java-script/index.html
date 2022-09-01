@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <meta charset="utf-8">
     <title>foxtail farms new website</title>
@@ -11,7 +12,7 @@
 <div class="header-left">
 <h1>Foxtail Farms</h1>
 </div>
-<div class="header-right">
+<div class="header-right" data-aos="flip-up">
   <img src="./asset/fox.png" alt="foxtail">
 </div>
 </header>
@@ -25,12 +26,27 @@
 
 </nav>
 <main>
-<button type="button" name="button">about</button>  <p class="about-text" id="js-demo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div class="time_wrapper" data-aos="fade-right">
+  <h4>The Current Date Is</h4>
+  <p id="date_element"></p>
+</div>
+  <div class="about_botton_wrapper">
+<button type="button" name="button" onclick="toggleConten()">about</button>  <p class="about-text" id="js-demo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
+  </div>
+<div class="furit-pictures">
+  <div class="grid-item" data-aos="fade-left">
+  <img src="./asset/kentaro-komada-kx26jnefug4-unsplash.jpg" alt="kentaro">
+  </div>
+  <div class="grid-item" data-aos="fade-right">
+  <img src="./asset/lauren-j-0P6piq1txXw-unsplash.jpg" alt="lauren">
+  </div>
+</div>
+
 </main>
 <footer>
-  <div class="footer-left">
-    <img src="./asset/foxtail_logo.png" alt="foxtail_logo">
+  <div class="footer-left"  data-aos="fade-up">
+    <img src="./asset/foxtail.png" alt="foxtail_logo">
   </div>
   <div class="footer-center">
     <ul>
@@ -53,8 +69,29 @@
 </footer>
 </div>
 <script>
-  var x = document.getElementById("js-demo").innerHTML;
-  console.log(x);
+
+
+  function toggleConten() {
+    var x = document.getElementById("js-demo");
+    x.classList.toggle("reveal");
+  }
+
+
+  var datepg = document.getElementById("date_element");
+  console.log(datepg);
+
+  function revealDate(){
+    datepg.innerHTML = Date();
+  }
+
+revealDate();
+
+</script>
+  <script src="./js/countdown.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  </script>
+  <script>
+  AOS.init();
 </script>
   </body>
 </html>
