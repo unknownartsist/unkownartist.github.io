@@ -149,7 +149,7 @@ body{
 transition: 1s;
 }
 body:hover{
-background: linear-gradient(to bottom,red);
+background: linear-gradient(to bottom,darkred);
 }
 body{
   background-color: darkred;

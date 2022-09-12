@@ -61,6 +61,8 @@
 }
 .footer{
   background-color: black;
+  padding: 10px;
+  margin: 0px;
 }
 .footer-top{
   display: flex;
@@ -70,7 +72,7 @@
   display: flex;
   justify-content: flex-end;
   padding-left: 0px;
-  padding: 5px;
+  padding: 10px;
 }
 #facebook_icon{
   width: 100%;
@@ -103,7 +105,7 @@
   font-size: 40px;
 }
 body:hover{
-  background: linear-gradient(to bottom,darkred,darkgrey)
+  color: darkred;
 }
 body{
   background-color: red;
